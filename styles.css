@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+
+  .top{
+    display: flex;
+  }
+  .navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-image: linear-gradient(to right,rgba(216, 118, 66, 0.951),rgb(81, 33, 2));
+  }
+  .image{
+    padding: 10px;
+  }
+  .nav{
+    color: white;
+    font: bold;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    gap: 15px;
+  }
+  .navigation:hover{
+    background-color: rgb(69, 12, 12);
+    border-radius: 3px;
+  }
+  
+  .bg{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .heading{
+    font-size: small;
+    color: rgb(203, 101, 27);
+    padding-bottom: 10px;
+  }
+  ul{
+    padding: 3px;
+    font-size: small;
+    color: white;
+  }
+  span{
+    font-size: small;
+    color: white;
+  }
+  #upper{
+    padding-top: 30px;
+  }
+
+  .page-mdle-logo{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 50px;
+  }
+
+  .page-mdle{
+    position: relative;
+  }
+
+  .page-mdle-logo > img {
+    border-radius: 100%;
+  }
+
+  .heading-info{
+    position: relative;
+    right: 200px;
+  }
+  .alumni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(50, 141, 232);
+    margin: 20px;
+  }
+  .alumni-section{
+    position: relative;
+    top: 40px;
+  }
+
+  .mail{
+    margin-top: 15px;
+  }
+  .mail-info{
+   margin-bottom: 15px;
+
+  }
+
+  .location{
+    margin-top: 15px;
+  }
+
+  pre{
+    color: white;
+  }
+  .contact-us{
+    margin-top: 30px;
+  }
+
+  .footer-desc{
+    margin-top: 30px;
+  }
+  .imgs{
+    width:100%;
+    height: 350px;
+  }
+
+  .carousel-img{
+    height: 200px;
+    width: 100px;
+  }
